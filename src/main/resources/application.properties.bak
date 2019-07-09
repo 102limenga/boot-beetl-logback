@@ -1,0 +1,4 @@
+#logging.level.后面可以跟logger名或者包名
+#logging.level.root=trace
+logging.path=/log
+logging.file=beetl.log
