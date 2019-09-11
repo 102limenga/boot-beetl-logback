@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://39.97.254.39:4000/tag?serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    interceptors: com.github.pagehelper.PageInterceptor
+#  configuration-properties:
+
+pagehelper:
+  helper-dialect: mysql
+  params:
+    count: countSql
+  reasonable: true
+  support-methods-arguments: true
+
+
+
+
+
+
